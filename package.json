@@ -1,5 +1,6 @@
 {
   "name": "@Arjen-Smit/env-topt-accounts",
+  "version": "from-git"
   "description": "Generate TOTP tokens for multiple accounts from the command line for easy debugging and end-to-end testing.",
   "main": "index.js",
   "publishConfig": {
