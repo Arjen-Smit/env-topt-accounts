@@ -27,6 +27,10 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
+      - name: Configure Git
+        run: |
+          git config user.email "arjen@alnitak.nl"
+          git config user.name "Arjen Smit"
       - run: npm version from-git
       - run: npm ci
       - run: npm publish
