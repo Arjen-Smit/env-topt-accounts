@@ -1,0 +1,23 @@
+{
+  "name": "env-topt-accounts",
+  "version": "1.0.0",
+  "description": "Generate TOTP tokens for multiple accounts from the command line for easy debugging and end-to-end testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjen-Smit/env-topt-accounts.git"
+  },
+  "author": "Arjen Smit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arjen-Smit/env-topt-accounts/issues"
+  },
+  "homepage": "https://github.com/Arjen-Smit/env-topt-accounts#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "otpauth": "^9.3.1"
+  }
+}
